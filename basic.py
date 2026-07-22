@@ -32,18 +32,30 @@
 
 
 
-my_tuple = ("apple", "banana", "cherry")
+# my_tuple = ("apple", "banana", "cherry")
 
-# my_tuple[1] = "kiwi"  # This will raise an error because tuples are immutable
-data = my_tuple.count("apple")  # This will return the count of "apple" in the tuple
-ind = my_tuple.index("banana")  # This will return the index of "banana" in the tuple
+# # my_tuple[1] = "kiwi"  # This will raise an error because tuples are immutable
+# data = my_tuple.count("apple")  # This will return the count of "apple" in the tuple
+# ind = my_tuple.index("banana")  # This will return the index of "banana" in the tuple
 
-new_tuple = my_tuple + ("orange",)  # This will create a new tuple by concatenating another tuple
-extra_tuple = ("grape", "kiwi")
-new_tuple = new_tuple + extra_tuple  # This will create a new tuple by concatenating another tuple
+# new_tuple = my_tuple + ("orange",)  # This will create a new tuple by concatenating another tuple
+# extra_tuple = ("grape", "kiwi")
+# new_tuple = new_tuple + extra_tuple  # This will create a new tuple by concatenating another tuple
 
 
-print(my_tuple)
-print(data)
-print(ind)
-print(new_tuple)
+# print(my_tuple)
+# print(data)
+# print(ind)
+# print(new_tuple)
+
+
+
+
+
+# Outer Loop: Yeh ghanton (Hours) ke liye hai
+for hour in range(1, 25):  # 1 se le kar 24 bajne tak
+    print(f"\n--- Hour {hour} starts ---")
+    
+    # Inner Loop: Yeh Minutes ke liye hai
+    for minute in range(1, 61):  # Hum sirf 3 minute chala kar dikhayenge
+        print(f"  Minute {minute}")
