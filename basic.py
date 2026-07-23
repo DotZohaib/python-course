@@ -52,10 +52,55 @@
 
 
 
-# Outer Loop: Yeh ghanton (Hours) ke liye hai
-for hour in range(1, 25):  # 1 se le kar 24 bajne tak
-    print(f"\n--- Hour {hour} starts ---")
+# # Outer Loop: Yeh ghanton (Hours) ke liye hai
+# for hour in range(1, 25):  # 1 se le kar 24 bajne tak
+#     print(f"\n--- Hour {hour} starts ---")
     
-    # Inner Loop: Yeh Minutes ke liye hai
-    for minute in range(1, 61):  # Hum sirf 3 minute chala kar dikhayenge
-        print(f"  Minute {minute}")
+#     # Inner Loop: Yeh Minutes ke liye hai
+#     for minute in range(1, 61):  # Hum sirf 3 minute chala kar dikhayenge
+#         print(f"  Minute {minute}")
+
+
+
+
+
+
+
+
+# data = set()
+
+# value1 = str(input("Enter your salary: "))
+
+# data.update(value1.split())
+
+# print(data)
+
+
+
+
+
+
+# data = set()
+
+# value1 = map(int,input("Enter your salary: ").split())
+
+# data.update(value1)
+
+# print(data)
+
+
+
+
+
+
+
+
+
+data = set()
+
+value = str(input("Enter your name: "))
+value1 = int(input("Enter your salary: "))
+
+data.update([value, value1])
+
+print(data)
