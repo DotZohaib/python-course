@@ -67,13 +67,13 @@
 
 
 
-# data = set()
+data = set()
 
-# value1 = str(input("Enter your salary: "))
+value1 = str(input("Enter your name: "))
 
-# data.update(value1.split())
+data.update(value1.split())
 
-# print(data)
+print(data)
 
 
 
@@ -96,11 +96,31 @@
 
 
 
-data = set()
+# data = set()
 
-value = str(input("Enter your name: "))
-value1 = int(input("Enter your salary: "))
+# value = str(input("Enter your name: "))
+# value1 = int(input("Enter your salary: "))
 
-data.update([value, value1])
+# data.update([value, value1])
 
-print(data)
+
+# print(data)
+
+
+
+
+
+
+
+
+
+
+
+
+# data = set()
+
+# value = str(input("Enter your names: "))
+# value1 = int(input("Enter your salary: "))
+
+# data.update([value, value1])
+# print(data)
